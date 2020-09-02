@@ -101,7 +101,7 @@ h2 {
 	color: #212353;
 }
 
-p {
+#land{
 	position: absolute;
 	width: 290px;
 	text-align: justify;
@@ -140,4 +140,51 @@ p {
 	font-family: 'Roboto';
 	line-height: 64px;
 	margin-left: 50px;
+}
+
+
+/* High Level */
+
+.highlevel {
+	width: 1117px;
+	height: 560px;
+	border-radius: 50px;
+		background: rgba(240, 99, 184, 0.15);
+		margin-top: 12%;
+		margin-left: 6%;
+}
+
+.highlevel img {
+	width: 477px;
+	height: 504px;
+	
+
+}
+
+.highstorage {
+
+	margin-top: -33%;
+	margin-left: 50%;
+	float: left;
+}
+
+h3 {
+	
+	width: 67%;
+	color: #212353;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 110%;
+}
+
+.high {
+	margin-top: 27px;
+	width: 67%;
+	font-size: 18px;
+	text-align: justify;
+	font-family: 'Roboto';
+	font-weight: 300;
+	color: #4B5D68;
 }
