@@ -101,7 +101,7 @@ h2 {
 	color: #212353;
 }
 
-#land{
+#land {
 	position: absolute;
 	width: 290px;
 	text-align: justify;
@@ -149,27 +149,23 @@ h2 {
 	width: 1117px;
 	height: 560px;
 	border-radius: 50px;
-		background: rgba(240, 99, 184, 0.15);
-		margin-top: 12%;
-		margin-left: 6%;
+	background: rgba(240, 99, 184, 0.15);
+	margin-top: 12%;
+	margin-left: 6%;
 }
 
 .highlevel img {
 	width: 477px;
 	height: 504px;
-	
-
 }
 
 .highstorage {
-
 	margin-top: -33%;
 	margin-left: 50%;
 	float: left;
 }
 
 h3 {
-	
 	width: 67%;
 	color: #212353;
 	font-family: Helvetica;
@@ -188,3 +184,27 @@ h3 {
 	font-weight: 300;
 	color: #4B5D68;
 }
+
+
+/* Features */
+
+.features {
+	margin-top: 145px;
+
+}
+
+#feat {
+	text-align: center;
+
+
+}
+
+#featu {
+	font-size: 15px;
+	font-family: 'Roboto';
+	font-weight: 300;
+	text-align: center;
+	color: #4B5D68;
+	margin-top: 50px;
+}
+
