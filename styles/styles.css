@@ -189,12 +189,13 @@ h3 {
 /* Features */
 
 .features {
-	margin-top: 145px;
+	margin-top: 135px;
 
 }
 
 #feat {
 	text-align: center;
+	margin-left: 6%;
 
 
 }
@@ -205,6 +206,7 @@ h3 {
 	font-weight: 300;
 	text-align: center;
 	color: #4B5D68;
-	margin-top: 50px;
+	margin-top: 40px;
+	margin-left: -20%;
 }
 
