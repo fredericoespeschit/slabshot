@@ -246,3 +246,39 @@ h3 {
 	font-weight: 300;
 	color: #4B5D68;
 }
+
+
+.seta2 {
+	position: absolute;
+	margin-top: 18.6%;
+	margin-left: 16%;
+}
+
+.seta2 #back2 {
+	position: absolute;
+	width: 20x;
+	height: 2px;
+	height: 2px;
+	margin-left: 120px;
+	margin-top: 14px;
+}
+
+.seta2 #polygon2 {
+	position: absolute;
+	width: 20x;
+	height: 15px;
+	margin-left: 136px;
+	margin-top: 7.5px;
+}
+
+#learnmore {
+	position: absolute;
+	margin-left: 17%;
+	margin-top: 19%;
+}
+
+.risquinho-banco1 {
+	position: absolute;
+	margin-top: 6%;
+	margin-left: 19%;
+}
