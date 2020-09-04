@@ -210,3 +210,39 @@ h3 {
 	margin-left: -20%;
 }
 
+#search-data {
+	position: absolute;
+	width: 232px;
+	height: 211px;
+	left: 310px;
+	margin-top: 180px
+}
+
+#search-data-background {
+	position: absolute;
+	width: 432px;
+	height: 358px;
+	margin-top: 100px;
+	margin-left: 9%;
+}
+
+#search-data-title {
+	position: absolute;
+	font-size: 24px;
+	margin-top: 180px;
+	margin-left: 17%;
+	font-family: 'Helvetica';
+	
+}
+
+#search-data-text {
+	width: 220px;
+	height: 160px;
+	position: absolute;
+	font-size: 14px;
+	margin-top: 230px;
+	margin-left: 17%;
+	font-family: 'Roboto';
+	font-weight: 300;
+	color: #4B5D68;
+}
