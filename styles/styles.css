@@ -1,284 +1,80 @@
 * {
 	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
+	font-family: Helvetica;
 }
 
-body {
-	background: #E5E5E5;
+header {
+	display: flex;
+	justify-content: center;
+	height: 120px;
 }
 
 .container {
-	margin-left: 13%;
-	height: 100vh;
+	display: flex;
+	width: 900px;
+	justify-content: space-between;
+
 }
 
-.nav {
-	width: 90%;
-	height: 100px;
+.logo {
+	
 	display: flex;
 	align-items: center;
-	font-family: Helvetica;
 }
 
-.nav img {
-	width: 49px;
-	height: 35px;
+nav,
+ul {
+	display: flex;
+	margin-left: 30px;
+
+}
+
+nav ul,
+nav li {
+	list-style: none;
+	padding: 10px;
 }
 
 .menu {
-	margin-left: 27px;
-}
+	flex: 1;
+	display: flex;
+	align-items: center;
 
-.menu span {
-	font-weight: 300;
-	font-size: 14px;
-	font-family: 'Roboto';
-	margin-left: 22px;
-}
-
-a {
-	text-decoration: none;
-}
-
-.menu a {
 	color: #4B5D68;
 }
 
-.menu strong a {
+#about {
+	font-weight: bold;
 	color: #212353;
 }
 
-.button-request {
-	margin-left: 50%;
+.buttonDemo {
+ flex: 1;
+ display: flex;
+ margin-left: 220px;
+
+}
+.buttonNav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 210px;
 	height: 60px;
-	background: #FFFFFF;
+	background: #ffffff;
 	border-radius: 50px;
-	box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
-}
-
-.button-request a {
-	font-weight: 700;
-	font-size: 14px;
-	font-family: 'Roboto';
-	line-height: 64px;
-	margin-left: 35px;
-	color: #212353;
-}
-
-.seta {
-	position: absolute;
-	margin-top: -47px;
-	margin-left: 9px;
-}
-
-.seta #back {
-	position: absolute;
-	width: 20x;
-	height: 2px;
-	height: 2px;
-	margin-left: 120px;
-	margin-top: 14px;
-}
-
-.seta #polygon {
-	position: absolute;
-	width: 20x;
-	height: 15px;
-	margin-left: 129px;
-	margin-top: 7.5px;
-}
-
-h2 {
-	position: absolute;
-	margin-top: 78px;
-	font-style: normal;
-	line-height: 110%;
-	width: 640px;
-	height: 184px;
-	font-family: Helvetica;
-	font-size: 75px;
-	color: #212353;
-}
-
-#land {
-	position: absolute;
-	width: 290px;
-	text-align: justify;
-	height: 120px;
-	margin-top: 294px;
-	color: #4B5D68;
-	font-family: 'Roboto';
-	font-weight: 300;
-}
-
-.landing {
-	position: absolute;
-	width: 50%;
-	height: 60%;
-	left: 35%;
-	top: 216px;
-}
-
-.button-container {
-	width: 170px;
-	height: 60px;
-	background: #9C69E2;
-	border-radius: 50px;
-	margin-top: 400px;
-	transition: 0.2s;
-}
-
-.button-container:hover {
-	background: rgba(156, 105, 228, 0.699);
-}
-
-.button-container a {
-	color: #FFFFFF;
-	font-weight: 700;
-	font-size: 14px;
-	font-family: 'Roboto';
-	line-height: 64px;
-	margin-left: 50px;
-}
-
-
-/* High Level */
-
-.highlevel {
-	width: 1117px;
-	height: 560px;
-	border-radius: 50px;
-	background: rgba(240, 99, 184, 0.15);
-	margin-top: 12%;
-	margin-left: 6%;
-}
-
-.highlevel img {
-	width: 477px;
-	height: 504px;
-}
-
-.highstorage {
-	margin-top: -33%;
-	margin-left: 50%;
-	float: left;
-}
-
-h3 {
-	width: 67%;
-	color: #212353;
-	font-family: Helvetica;
-	font-style: normal;
+	margin: 30px;
 	font-weight: bold;
-	font-size: 40px;
-	line-height: 110%;
-}
-
-.high {
-	margin-top: 27px;
-	width: 67%;
-	font-size: 18px;
-	text-align: justify;
-	font-family: 'Roboto';
-	font-weight: 300;
-	color: #4B5D68;
-}
-
-
-/* Features */
-
-.features {
-	margin-top: 135px;
-
-}
-
-#feat {
-	text-align: center;
-	margin-left: 6%;
-
-
-}
-
-#featu {
-	font-size: 15px;
-	font-family: 'Roboto';
-	font-weight: 300;
-	text-align: center;
-	color: #4B5D68;
-	margin-top: 40px;
-	margin-left: -20%;
-}
-
-#search-data {
-	position: absolute;
-	width: 232px;
-	height: 211px;
-	left: 310px;
-	margin-top: 180px
-}
-
-#search-data-background {
-	position: absolute;
-	width: 432px;
-	height: 358px;
-	margin-top: 100px;
-	margin-left: 9%;
-}
-
-#search-data-title {
-	position: absolute;
-	font-size: 24px;
-	margin-top: 180px;
-	margin-left: 17%;
-	font-family: 'Helvetica';
 	
 }
 
-#search-data-text {
-	width: 220px;
-	height: 160px;
-	position: absolute;
-	font-size: 14px;
-	margin-top: 230px;
-	margin-left: 17%;
-	font-family: 'Roboto';
-	font-weight: 300;
-	color: #4B5D68;
+.buttonDemo a {
+	display: flex;
+	color: #212353;
+	text-decoration: none;
 }
 
-
-.seta2 {
-	position: absolute;
-	margin-top: 18.6%;
-	margin-left: 16%;
-}
-
-.seta2 #back2 {
-	position: absolute;
-	width: 20x;
-	height: 2px;
-	height: 2px;
-	margin-left: 120px;
-	margin-top: 14px;
-}
-
-.seta2 #polygon2 {
-	position: absolute;
-	width: 20x;
-	height: 15px;
-	margin-left: 136px;
-	margin-top: 7.5px;
-}
-
-#learnmore {
-	position: absolute;
-	margin-left: 17%;
-	margin-top: 19%;
-}
-
-.risquinho-banco1 {
-	position: absolute;
-	margin-top: 6%;
-	margin-left: 19%;
+.buttonDemo img {
+	margin-left: 10px;
 }
