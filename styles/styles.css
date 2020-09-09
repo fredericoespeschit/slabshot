@@ -1,3 +1,11 @@
+:root {
+	--color-one: #4B5D68;
+	--color-two: #212353;
+	--color-three: #9C69E2;
+	--color-four: #F063B8;
+	--color-five: #68C9BA;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -42,12 +50,12 @@ nav li {
 	flex: 1;
 	display: flex;
 	align-items: center;
-	color: #4B5D68;
+	color: var(--color-one);
 }
 
 #about {
 	font-weight: bold;
-	color: #212353;
+	color: var(--color-two);
 }
 
 .buttonDemo {
@@ -70,7 +78,7 @@ nav li {
 
 .buttonDemo a {
 	display: flex;
-	color: #212353;
+	color: var(--color-two);
 	text-decoration: none;
 }
 
@@ -94,7 +102,7 @@ main {
 	height: 184px;
 	font-size: 30px;
 	font-weight: bold;
-	color: #212353;
+	color: var(--color-two);
 	margin-top: 60px;
 	display: flex;
 	
@@ -108,7 +116,7 @@ main {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 160%;
-	color: #4B5D68;
+	color: var(--color-one)
 }
 
 main img {
