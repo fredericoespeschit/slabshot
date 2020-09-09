@@ -5,6 +5,10 @@
 	font-family: Helvetica;
 }
 
+body {
+	background: #E5E5E5;
+}
+
 header {
 	display: flex;
 	justify-content: center;
@@ -15,11 +19,9 @@ header {
 	display: flex;
 	width: 900px;
 	justify-content: space-between;
-
 }
 
 .logo {
-	
 	display: flex;
 	align-items: center;
 }
@@ -28,20 +30,18 @@ nav,
 ul {
 	display: flex;
 	margin-left: 30px;
-
 }
 
 nav ul,
 nav li {
 	list-style: none;
-	padding: 10px;
+	padding: 15px;
 }
 
 .menu {
 	flex: 1;
 	display: flex;
 	align-items: center;
-
 	color: #4B5D68;
 }
 
@@ -51,11 +51,11 @@ nav li {
 }
 
 .buttonDemo {
- flex: 1;
- display: flex;
- margin-left: 220px;
-
+	flex: 1;
+	display: flex;
+	margin-left: 220px;
 }
+
 .buttonNav {
 	display: flex;
 	align-items: center;
@@ -66,7 +66,6 @@ nav li {
 	border-radius: 50px;
 	margin: 30px;
 	font-weight: bold;
-	
 }
 
 .buttonDemo a {
@@ -77,4 +76,45 @@ nav li {
 
 .buttonDemo img {
 	margin-left: 10px;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	height: 60vh;
+}
+
+.column {
+	flex-direction: column;
+}
+
+#title {
+	position: absolute;
+	width: 645px;
+	height: 184px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #212353;
+	margin-top: 60px;
+	display: flex;
+	
+}
+
+#sub-title {
+	width: 340px;
+
+	margin-top: 224px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 160%;
+	color: #4B5D68;
+}
+
+main img {
+
+	width: 886px;
+	height: 426px;
+	margin-top: 122px;
+	margin-left: -105px;
 }
