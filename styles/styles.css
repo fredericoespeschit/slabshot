@@ -4,6 +4,7 @@
 	--color-three: #9C69E2;
 	--color-four: #F063B8;
 	--color-five: #68C9BA;
+	--color-six: rgba(240, 99, 184, 0.15);
 }
 
 * {
@@ -125,4 +126,51 @@ main img {
 	height: 426px;
 	margin-top: 122px;
 	margin-left: -105px;
+}
+
+section {
+
+	display: flex;
+	justify-content: center;
+	margin-top: 140px;
+	
+
+}
+
+.storage {
+	display: flex;
+	position: absolute;
+	
+
+	
+}
+
+ .titleStorage {
+	
+	width: 475px;
+	height: 100px;
+
+	margin-left: 65px;
+	margin-top: 170px;
+	font-size: 35px;
+	line-height: 130%;
+	display: flex;
+align-items: center;
+ }
+
+.textStorage {
+
+	width: 475px;
+	height: 170px;
+	margin-left: -470px;
+	margin-top: 290px;
+	font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+}
+
+
+
+.features {
+	
 }
