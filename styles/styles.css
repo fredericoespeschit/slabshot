@@ -5,7 +5,6 @@
 	--color-four: #F063B8;
 	--color-five: #68C9BA;
 	--color-six: rgba(240, 99, 184, 0.15);
-	
 }
 
 * {
@@ -92,7 +91,6 @@ main {
 	display: flex;
 	justify-content: center;
 	height: 550px;
-
 }
 
 .column {
@@ -125,26 +123,18 @@ main img {
 	height: 426px;
 	margin-top: 122px;
 	margin-left: -105px;
-	
 }
 
-
-
 section {
-
 	display: flex;
-
 	justify-content: center;
-	
 }
 
 #rectangle {
 	width: 900px;
-height: 560px;
-margin-top: 20px;
-	
+	height: 560px;
+	margin-top: 20px;
 }
-
 
 .storage {
 	position: absolute;
@@ -159,9 +149,7 @@ margin-top: 20px;
 	margin-top: 110px;
 }
 
-
 .titleStorage {
-	
 	width: 474px;
 	height: 170px;
 	font-style: normal;
@@ -172,6 +160,7 @@ margin-top: 20px;
 	align-items: center;
 	color: var(--color-two);
 }
+
 .textStorage {
 	width: 404px;
 	height: 170px;
@@ -183,18 +172,122 @@ margin-top: 20px;
 	color: var(--color-one);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
-	background: red;
+.features {
+	width: 900px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 140px;
 }
+
+.title-features {
+	text-align: center;
+	font-size: 28px;
+	color: var(--color-two);
+}
+
+.subtitle-features {
+	margin-top: 30px;
+	text-align: center;
+	width: 394px;
+}
+
+.subtitle-features p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 160%;
+	color: var(--color-one);
+}
+
+.block-top {
+	display: flex;
+	width: 900px;
+	height: 358px;
+}
+
+.blockOne {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 450px;
+	height: 358px;
+}
+
+.rectangle img {
+	width: 342px;
+	height: 258px;
+}
+
+.img-block img {
+	position: absolute;
+	width: 172px;
+	height: 151px;
+	margin-top: -80px;
+	margin-left: -400px;
+}
+
+.title-sub-block {
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	flex-direction: column;
+	margin-left: 60px;
+	
+	padding: 20px;
+}
+.title-block {
+	width: 200px;
+	height: 50px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 130%;
+	
+	color: var(--color-two);
+}
+
+.text-block {
+	width: 150px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 160%;
+
+	color: var(--color-one);
+}
+
+.lear-more-block {
+	margin-top: 28px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 160%;
+
+	display: flex;
+
+}
+
+.lear-more-block a {
+	text-decoration: none;
+}
+
+.lear-more-block a {
+	display: flex;
+	color: var(--color-two);
+	text-decoration: none;
+}
+
+.lear-more-block img {
+	width: 15px;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+footer {}
