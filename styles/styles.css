@@ -241,7 +241,7 @@ section {
 	height: 50px;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 130%;
 	
 	color: var(--color-two);
@@ -285,6 +285,13 @@ section {
 
 
 
+.blockTwo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 450px;
+	height: 358px;
+}
 
 
 
