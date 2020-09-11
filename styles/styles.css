@@ -154,20 +154,22 @@ section {
 	height: 170px;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 28px;
 	line-height: 130%;
 	display: flex;
 	align-items: center;
 	color: var(--color-two);
+	padding: 10px;
 }
 
 .textStorage {
+	padding: 10px;
 	width: 404px;
 	height: 170px;
 	text-align: justify;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 160%;
 	color: var(--color-one);
 }
@@ -182,7 +184,7 @@ section {
 
 .title-features {
 	text-align: center;
-	font-size: 28px;
+	font-size: 26px;
 	color: var(--color-two);
 }
 
@@ -190,12 +192,13 @@ section {
 	margin-top: 30px;
 	text-align: center;
 	width: 394px;
+
 }
 
 .subtitle-features p {
 	font-style: normal;
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 160%;
 	color: var(--color-one);
 }
@@ -204,13 +207,14 @@ section {
 	display: flex;
 	width: 900px;
 	height: 358px;
+	
 }
 
 .blockOne {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 450px;
+	width: 650px;
 	height: 358px;
 }
 
