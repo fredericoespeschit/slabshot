@@ -343,7 +343,7 @@ section {
 .title-testimonials {
 	position: absolute;
 	margin-left: 40px;
-	margin-top: -550px;
+	margin-top: -570px;
 	color: #FFFFFF;
 	font-size: 40px;
 	font-style: normal;
@@ -356,9 +356,52 @@ section {
 	position: absolute;
     margin-left: 40px;
     width: 523px;
-    height: 285px;
+    height: 255px;
     background: #FFFFFF;
     border-radius: 20px;
-	margin-top: -450px;
+    margin-top: -470px;
+    display: flex;
 	
+}
+
+.card-main img {
+    margin-left: 40px;
+    margin-top: 30px;
+    
+}
+
+.title-card {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--color-two);
+}
+
+.info-card {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 160%;
+
+    color: var(--color-three);
+}
+
+.text-card {
+    width: 290px;
+    height: 130px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    color: var(--color-one);
+    margin-top: 20px;
+    
+}
+
+.escritos {
+    
+    margin-left: 30px;
+    margin-top: 40px;
+ 
 }
