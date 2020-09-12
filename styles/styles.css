@@ -334,5 +334,31 @@ section {
     height: 358px;
 }
 
-footer {
+#rectangle-testimonials {
+    width: 900px;
+	height: 709px;
+    margin-top: 20px;
+}
+
+.title-testimonials {
+	position: absolute;
+	margin-left: 40px;
+	margin-top: -550px;
+	color: #FFFFFF;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 130%;
+}
+
+.card-main {
+	position: absolute;
+    margin-left: 40px;
+    width: 523px;
+    height: 285px;
+    background: #FFFFFF;
+    border-radius: 20px;
+	margin-top: -450px;
+	
 }
