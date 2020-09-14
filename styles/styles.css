@@ -400,10 +400,9 @@ section {
 }
 
 .escritos {
-    
     margin-left: 30px;
     margin-top: 40px;
- 
+
 }
 
 .card-no-main {
@@ -439,13 +438,79 @@ section {
     display: flex;
     margin-top: -15px;
     margin-left: 765px;
+}
 
-}
-.seta-contraria {
-    
-}
 .setinha {
-    
     margin-left: 10px;
+}
 
+.divisor {
+    width: 100%;
+    height: 2px;
+    background: #9C69E2;
+    opacity: 0.2;
+    margin-top: 200px;
+}
+
+
+.title-subtitle-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.title-sub-footer {
+    display: flex;
+    flex-direction: column;
+
+}
+.title-footer {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    color: var(--color-two);
+  
+    
+}
+
+.subtitle-footer {
+    color: var(--color-one);
+    line-height: 160%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    width: 290px;
+   
+}
+
+.buttonFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 50px;
+    
+    font-weight: bold;
+}
+
+.buttonLearnMoreFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 60px;
+    background: var(--color-four);
+    border-radius: 50px;
+    margin-right: 20px;
+    font-weight: bold;
+    
+}
+
+.buttonLearnMoreFooter a {
+    color: #FFF;
 }
