@@ -514,3 +514,58 @@ section {
 .buttonLearnMoreFooter a {
     color: #FFF;
 }
+.coluna1 {
+    margin-top: 80px;
+}
+.logo-project {
+    width: 900px;
+    display: flex;
+    align-items: center;
+   
+  
+}
+
+.list {
+    width: 900px;
+
+
+}
+
+footer ul,
+footer li {
+    list-style: none;
+
+}
+.list {
+    display: flex;
+    align-items: center;
+  
+}
+.list #primeiro {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 160%;
+    color: var(--color-two);
+    margin-left: -8px;
+
+}
+
+li {
+   
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--color-two);
+}
+
+.list #segunda {
+
+    width: 700px;
+
+}
+
+#segunda li {
+    margin-left: 115px;
+}
