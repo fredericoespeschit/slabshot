@@ -15,7 +15,7 @@
 }
 
 body {
-    background: #e5e5e5;
+    background: #e3e3e3;
 }
 
 header {
@@ -484,6 +484,7 @@ section {
     font-size: 16px;
     width: 290px;
    
+   
 }
 
 .buttonFooter{
@@ -551,7 +552,7 @@ footer li {
 
 }
 
-li {
+footer li {
    
     font-style: normal;
     font-weight: 600;
@@ -568,4 +569,124 @@ li {
 
 #segunda li {
     margin-left: 115px;
+}
+
+.contato {
+    width: 260px;
+    margin-top: 70px;
+
+}
+.endereco {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 180%;
+    color: var(--color-two);
+    letter-spacing: 0.01em;
+
+}
+.email-number {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: var(--color-two);
+    letter-spacing: 0.01em;
+}
+
+
+.listis {
+    display: flex;
+    width: 800px;
+    
+    margin-top: 70px;
+    color: var(--color-two);
+
+}
+
+
+
+.listis .list-about {
+    margin-left: 184px;
+
+ }
+ 
+ .list-about ul {
+     display: flex;
+     flex-direction: column;
+   
+ }
+ 
+ .list-about li {
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 250%;
+ }
+ 
+ 
+ .listis .list-help {
+     margin-left: 64px;
+  
+    
+  }
+ .list-help ul {
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ 
+ .list-help li {
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 250%;
+ }
+
+ .social-media-footer {
+     display: flex;
+   
+    margin-top: 70px;
+    margin-right: 50px;
+ }
+
+ .facebook {
+     width: 50px;
+     height: 50px;
+     border-radius: 100%;
+     background-color: #e9e9ee;
+     
+ }
+
+ .facebook img {
+     margin-left: 19px;
+     margin-top: 14px;
+ }
+
+ .twitter {
+     margin-left: 5px;
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #e9e9ee;
+ }
+
+ .twitter img {
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+
+ .instagram {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #e9e9ee;
+ }
+
+ .instagram img {
+    margin-left: 16px;
+    margin-top: 16px;
 }
