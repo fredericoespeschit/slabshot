@@ -54,9 +54,14 @@ nav li {
     color: var(--color-one);
 }
 
-#about {
+#about a {
     font-weight: bold;
     color: var(--color-two);
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--color-one);
 }
 
 .buttonDemo {
@@ -224,7 +229,6 @@ section {
     display: flex;
     width: 900px;
     height: 358px;
-   
 }
 
 .blockOne {
@@ -315,7 +319,6 @@ section {
     display: flex;
     width: 900px;
     height: 358px;
-   
 }
 
 .blockThree {
@@ -336,38 +339,36 @@ section {
 
 #rectangle-testimonials {
     width: 900px;
-	height: 709px;
+    height: 709px;
     margin-top: 20px;
 }
 
 .title-testimonials {
-	position: absolute;
-	margin-left: 50px;
-	margin-top: -570px;
-	color: #FFFFFF;
-	font-size: 40px;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 40px;
-	line-height: 130%;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -570px;
+    color: #ffffff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
 }
 
 .card-main {
-	position: absolute;
+    position: absolute;
     margin-left: 50px;
     width: 510px;
     height: 255px;
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 20px;
     margin-top: -470px;
     display: flex;
-	
 }
 
 .card-main img {
     margin-left: 40px;
     margin-top: 30px;
-    
 }
 
 .title-card {
@@ -396,13 +397,11 @@ section {
     line-height: 180%;
     color: var(--color-one);
     margin-top: 20px;
-    
 }
 
 .escritos {
     margin-left: 30px;
     margin-top: 40px;
-
 }
 
 .card-no-main {
@@ -410,7 +409,7 @@ section {
     margin-left: 580px;
     width: 380px;
     height: 255px;
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 20px;
     margin-top: -470px;
     display: flex;
@@ -419,14 +418,11 @@ section {
 .card-no-main img {
     margin-left: 40px;
     margin-top: 30px;
-   
-    
 }
 
 .card-no-main .escritos .text-card {
     width: 180px;
     height: 130px;
-    
 }
 
 .slide {
@@ -447,11 +443,10 @@ section {
 .divisor {
     width: 100%;
     height: 2px;
-    background: #9C69E2;
+    background: #9c69e2;
     opacity: 0.2;
     margin-top: 200px;
 }
-
 
 .title-subtitle-footer {
     display: flex;
@@ -463,7 +458,6 @@ section {
 .title-sub-footer {
     display: flex;
     flex-direction: column;
-
 }
 .title-footer {
     font-family: Helvetica;
@@ -472,8 +466,6 @@ section {
     font-size: 40px;
     line-height: 130%;
     color: var(--color-two);
-  
-    
 }
 
 .subtitle-footer {
@@ -483,11 +475,9 @@ section {
     font-weight: 500;
     font-size: 16px;
     width: 290px;
-   
-   
 }
 
-.buttonFooter{
+.buttonFooter {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -495,7 +485,7 @@ section {
     height: 60px;
     background: #ffffff;
     border-radius: 50px;
-    
+
     font-weight: bold;
 }
 
@@ -509,11 +499,10 @@ section {
     border-radius: 50px;
     margin-right: 20px;
     font-weight: bold;
-    
 }
 
 .buttonLearnMoreFooter a {
-    color: #FFF;
+    color: #fff;
 }
 .coluna1 {
     margin-top: 80px;
@@ -522,25 +511,19 @@ section {
     width: 900px;
     display: flex;
     align-items: center;
-   
-  
 }
 
 .list {
     width: 900px;
-
-
 }
 
 footer ul,
 footer li {
     list-style: none;
-
 }
 .list {
     display: flex;
     align-items: center;
-  
 }
 .list #primeiro {
     font-style: normal;
@@ -549,11 +532,9 @@ footer li {
     line-height: 160%;
     color: var(--color-two);
     margin-left: -8px;
-
 }
 
 footer li {
-   
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -562,9 +543,7 @@ footer li {
 }
 
 .list #segunda {
-
     width: 700px;
-
 }
 
 #segunda li {
@@ -572,9 +551,9 @@ footer li {
 }
 
 .contato {
-    width: 260px;
+    width: 700px;
     margin-top: 70px;
-
+   
 }
 .endereco {
     font-style: normal;
@@ -583,7 +562,6 @@ footer li {
     line-height: 180%;
     color: var(--color-two);
     letter-spacing: 0.01em;
-
 }
 .email-number {
     margin-top: 20px;
@@ -595,98 +573,111 @@ footer li {
     letter-spacing: 0.01em;
 }
 
-
 .listis {
     display: flex;
     width: 800px;
-    
+
     margin-top: 70px;
     color: var(--color-two);
-
 }
 
-
-
 .listis .list-about {
-    margin-left: 184px;
+    margin-left: 37px;
+}
 
- }
- 
- .list-about ul {
-     display: flex;
-     flex-direction: column;
-   
- }
- 
- .list-about li {
-     font-style: normal;
-     font-weight: normal;
-     font-size: 16px;
-     line-height: 250%;
- }
- 
- 
- .listis .list-help {
-     margin-left: 64px;
-  
-    
-  }
- .list-help ul {
-     display: flex;
-     flex-direction: column;
- }
- 
- 
- .list-help li {
-     font-style: normal;
-     font-weight: normal;
-     font-size: 16px;
-     line-height: 250%;
- }
+.list-about ul {
+    display: flex;
+    flex-direction: column;
+}
 
- .social-media-footer {
-     display: flex;
-   
+.list-about li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 250%;
+}
+
+.listis .list-help {
+   margin-left: 57px;
+}
+.list-help ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-help li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 250%;
+}
+
+.social-media-footer {
+    display: flex;
+
     margin-top: 70px;
     margin-right: 50px;
- }
+}
 
- .facebook {
-     width: 50px;
-     height: 50px;
-     border-radius: 100%;
-     background-color: #e9e9ee;
-     
- }
+.facebook {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #212353;
+    opacity: 0.1;
+}
 
- .facebook img {
-     margin-left: 19px;
-     margin-top: 14px;
- }
+.facebook img {
+    margin-left: 19px;
+    margin-top: 14px;
+}
 
- .twitter {
-     margin-left: 5px;
+.twitter {
+    margin-left: 5px;
     margin-right: 5px;
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    background-color: #e9e9ee;
- }
+    background: #212353;
+    opacity: 0.1;
+}
 
- .twitter img {
+.twitter img {
     margin-left: 16px;
     margin-top: 16px;
 }
 
-
- .instagram {
+.instagram {
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    background-color: #e9e9ee;
- }
+    background: #212353;
+    opacity: 0.1;
+}
 
- .instagram img {
+.instagram img {
     margin-left: 16px;
     margin-top: 16px;
+}
+
+.coluna3 {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.reserved {
+    width: 300px;
+    font-size: 12px;
+    line-height: 180%;
+    color: var(--color-two);
+    letter-spacing: 0.02em;
+}
+
+.reserved span {
+    color: var(--color-one);
+    text-decoration: none;
 }
