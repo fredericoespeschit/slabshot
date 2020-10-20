@@ -1,0 +1,19 @@
+
+#main {
+    background-color: red;
+    section {
+        padding: 10px;
+    }
+}
+
+#main 
+    background-color: red
+    section
+        padding: 10px;
+
+
+// MENU
+@import 'menu';
+@import 'banner';
+@import 'header';
+@import 'tags';
